@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--HEADER SECTION-->
+    <header>
+        <h1 style="font-size: 50px;">MY PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--ABOUT SECTON-->
+    <section id="about">
+        <h2 class="A">About Me</h2>
+        <img src="my photo.png" alt="My Photo" style="border: 1px black solid;">
+        <p>Hello! I am Sadiya, a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+    <section class="icons">
+        <i class="fa fa-instagram" style="font-size:36px; color:rgb(130, 9, 130)"></i>
+        <i class="fa fa-telegram" style="font-size:36px; color:rgb(78, 154, 254)"></i>
+        <i class="fa fa-youtube" style="font-size:36px;color:rgb(204, 23, 23)"></i>
+        <i class="fa fa-facebook" style="font-size:36px;color:rgb(37, 14, 242)"></i>
+    </section>
+
+
+
+
+
+    <!--SKILLS SECTION-->
+    <section class="per" id="skills">
+        <h2>Skills</h2>
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">90%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">80%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">65%</div>
+        </div>
+
+        <p>PHP</p>
+        <div class="container">
+            <div class="skills php">60%</div>
+        </div>
+
+        <p>Python</p>
+        <div class="container">
+            <div class="skills python">40%</div>
+        </div>
+    </section>
+
+
+    <!--PROJECT SECTION-->
+    <section id="projects">
+        <h2 class="A">Projects</h2>
+        <div class="project">
+            <h3>1:- Project One</h3>
+            <img src="project1.png" alt="Project One">
+            <p>DISCRIPTION:-
+                The objective of this project is to create a web-based replica of Instagram's homepage using HTML & CSS.
+                The focus will be on mimicking the layout, design, and functionality of the Instagram app's main feed
+                view.
+                &nbsp;Key Features to Implement:<br>
+                1: Header<br>
+                2: footer<br>
+                3: Nav<br>
+                This project aims to provide hands-on experience in front-end web development by replicating a popular
+                social media platform's homepage. It combines HTML & CSS skills to create a visually appealing and
+                functional web page that resembles Instagram’s main feed interface.
+            </p>
+        </div>
+        <div class="project">
+            <h3>2:- Project Two</h3>
+            <img src="project2.png" alt="Project Two">
+            <p>DISCRIPTION:-
+                The objective of this project is to create a web page where users can view and manage their personal
+                information
+                in a secure and user-friendly manner. This could be part of a larger web application that includes user
+                authentication and account management functionalities.<br>
+                Technologies Used:<br>
+                HTML: For structuring the content and forms.<br>
+                CSS: For styling the page and ensuring a cohesive design.<br>
+            </p>
+        </div>
+        <div class="project">
+            <h3>3:- Project Three</h3>
+            <img src="project3.png" alt="Project Three">
+            <p>DISCRIPTION:-
+                The objective of this project is to create a web application that provides a detailed recipe for making
+                apple pie.
+                Users will be able to view ingredients, step-by-step instructions, and possibly other related content
+                like
+                nutritional information or tips for variations.<br>
+                Technologies Used:<br>
+                1: HTML<br>
+                2: CSS<br>
+                This project aims to provide a practical exercise in web development and design, focusing on creating a
+                user-friendly
+                interface for presenting a classic recipe. By completing this project, you will gain experience in HTML
+                & CSS, while
+                also practicing content organization and user interface design principles. Additionally, you can explore
+                optional
+                features like user accounts or advanced styling techniques to enhance the project further.
+            </p>
+        </div>
+        <div>
+            <h2 style="font-weight: bold; color:black;">My Other projects Names:</h2>
+            <p>
+                1. Photography websites<br>
+                2. landing page of E-commerce websites<br>
+                3. Parellex websites<br>
+                4. Blog Layout
+            </p>
+        </div>
+    </section>
+
+    <!--RESUME SECTION-->
+    <section class="resume">
+        <h2>Resume</h2>
+        <div className="header__buttons">
+            <a href="resume.pdf" className="btn btn-outline" download>Download Resume
+            </a>
+        </div>
+
+    </section>
+
+
+    <!--CONTACT SECTION-->
+    <section id="contact">
+        <h2 class="A">Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone no.">Phone No.</label>
+            <input type="text" id="phone no." name="phone no." required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sadiya. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
